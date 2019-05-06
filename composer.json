@@ -1,0 +1,33 @@
+{
+    "name": "fusible/aura-router-provider",
+    "description": "Service provider for Aura\\Router",
+    "type": "library",
+    "require": {
+        "php": ">=7.2.0",
+        "aura/router": "^3.1",
+        "container-interop/service-provider": "^0.4.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1",
+        "pds/skeleton": "^1.0",
+        "aura/di": "^3.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+   "autoload": {
+        "psr-4": {
+            "Fusible\\AuraRouterProvider\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fusible\\AuraRouterProvider\\": "test/"
+        }
+    }
+}
